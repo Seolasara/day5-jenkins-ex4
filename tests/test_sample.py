@@ -8,7 +8,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from app import add,subtract
 
 def test_add():
-    assert add(2, 3) == 5
+    assert add(2, 2) == 5
     assert add(-1, 1) == 0
     assert add(0, 0) == 0
 
